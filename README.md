@@ -46,7 +46,7 @@ Node.js (v14 or higher) npm or yarn Steps:
 
 1 Clone the repository:
 
-bash git clone  cd tarantula-ecommerce
+bash git clone https://github.com/CRose1497/Tarantula-Ecommerce cd tarantula-ecommerce
 
 2 Install dependencies:
 
