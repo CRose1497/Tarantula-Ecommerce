@@ -71,7 +71,7 @@ Steps:
 1 Clone the repository:
 
 bash
-git clone https://github.com/your-username/tarantula-ecommerce.git
+git clone https://github.com/CRose1497/Tarantula-Ecommerce
 cd tarantula-ecommerce
 
 2 Install dependencies:
