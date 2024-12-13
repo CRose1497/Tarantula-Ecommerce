@@ -1,0 +1,24 @@
+{
+  "name": "tarantula-ecommerce",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.0.2",
+    "react-toastify": "^10.0.6"
+  },
+  "devDependencies": {
+    "jsdom": "^21.1.0",
+    "vitest": "^0.34.6"
+  }
+}

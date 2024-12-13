@@ -1,0 +1,83 @@
+/**
+ * File: Header.css
+ * Author: Christian Rose
+ * Date: 2024-12-12
+ * Description: Stylesheet for the Header component, which includes the website's logo
+ *              and navigation links.
+ * 
+ * Features:
+ * - Header with a dark background (#121212) and light text (#e0e0e0).
+ * - Logo section with an icon and styled text.
+ * - Navigation bar with links styled for hover and focus effects.
+ * 
+ * Classes:
+ * - .header: Styles the main header container with padding and a bottom border.
+ * - .header-content: Centers the header content and applies a flex layout for alignment.
+ * - .logo-link: Styles the logo link, including hover effects.
+ * - .logo-icon: Sets the size and color of the logo icon.
+ * - .logo-text: Defines the font size and weight for the logo text.
+ * - .nav: Styles the navigation container with a horizontal layout and spacing.
+ * - .nav-link: Styles the navigation links with hover color transitions.
+ */
+
+/* Header */
+.header {
+    background-color: #121212; 
+    color: #e0e0e0; 
+    padding: 20px;
+    border-bottom: 2px solid #80461b;
+  }
+  
+  .header-content {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Logo Section */
+
+  .logo-link {
+    text-decoration: none;
+    color: #f4a261; 
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .logo-link:hover {
+    color: #e07a5f; 
+  }
+  
+  .logo-icon {
+    font-size: 50px; 
+    color: #f4a261; 
+  }
+  
+  .logo-text {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  /* Navigation Links */
+
+  .nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #f4a261;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 200ms ease;
+  }
+  
+  .nav-link:hover {
+    color: #e07a5f; 
+  }
+  

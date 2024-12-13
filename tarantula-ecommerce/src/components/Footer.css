@@ -1,0 +1,63 @@
+/**
+ * File: footer.css
+ * Author: Christian Rose
+ * Date: 2024-12-12
+ * Description: Stylesheet for the website footer. This file provides styling for the footer's 
+ *              layout, text, and social media icons.
+ * 
+ * Sections:
+ * - General Footer Styling: Defines the base appearance of the footer, including colors and spacing.
+ * - Footer Container: Styles the container for the footer content, ensuring proper alignment and layout.
+ * - Social Icons: Provides styling and hover effects for social media icons in the footer.
+ * 
+ * Key Features:
+ * - Responsive layout with centralized content.
+ * - Highlighted social icons with hover transitions.
+ * - Clear separation from the main content using a border.
+ */
+
+
+/* Footer */ 
+
+.footer {
+    background-color: #121212;
+    color: #e0e0e0;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 2px solid #80461b; 
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+
+  /* Social Icons */
+  
+  .social-icons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .social-icons a {
+    color: #f4a261; 
+    font-size: 20px;
+    transition: color 200ms ease;
+  }
+  
+  .social-icons a:hover {
+    color: #e07a5f; 
+  }
+  
+  .social-icons i {
+    font-family: 'FontAwesome';
+  }
+  

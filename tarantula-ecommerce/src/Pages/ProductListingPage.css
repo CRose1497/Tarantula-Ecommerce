@@ -1,0 +1,110 @@
+/**
+ * File: product-listing.css
+ * Author: Christian Rose
+ * Date: 2024-12-12
+ * Description: Stylesheet for the Product Listing Page. This file contains styling for 
+ *              the layout, product grid, interactive controls, and individual product cards.
+ * 
+ * Sections:
+ * - General Page Styling: Defines the base styling for the product listing page.
+ * - Controls: Styles the search bar, filter, and sort dropdowns for user interaction.
+ * - Product Grid: Specifies the layout and appearance of the product grid and individual cards.
+ * - Buttons: Adds interactive hover effects for buttons within the product cards.
+ * - Miscellaneous: Handles scenarios like displaying a message when no products are available.
+ * 
+ * Key Features:
+ * - Responsive grid layout for products.
+ * - Hover effects for product cards and buttons.
+ * - Support for flexible control layout with wrapping.
+ */
+
+
+/* Product Listing Page */
+.product-listing {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    color: #d4a373;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Controls (Search, Filter, Sort) */
+  .controls {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .search-bar, .dropdown {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  /* Product Grid */
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .card {
+    border: 1px solid #3a3a3a;
+    border-radius: 8px;
+    background-color: #242424;
+    color: #f4f4f4;
+    text-align: center;
+    padding: 15px;
+    transition: transform 200ms ease, border-color 200ms ease, box-shadow 200ms ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.02);
+    border-color: #f4a261;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: transform 200ms ease;
+  }
+  
+  .card-img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Buttons */
+  .card-button {
+    background-color: #80461b;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 200ms ease, transform 100ms ease;
+  }
+  
+  .card-button:hover {
+    background-color: #a65e2e;
+    transform: scale(1.05);
+  }
+  
+  /* No Products */
+  .no-products {
+    color: #e07a5f;
+    text-align: center;
+    grid-column: span 3;
+  }
+  

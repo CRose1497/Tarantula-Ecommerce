@@ -1,0 +1,143 @@
+/**
+ * File: index.css
+ * Author: Christian Rose
+ * Date: 2024-12-12
+ * Description: Global CSS styles for the application. Provides default styling and 
+ *              layout adjustments for a consistent look and feel.
+ * 
+ * Features:
+ * - Resets browser-specific styles for consistency.
+ * - Defines common styles for fonts, buttons, and layout components.
+ * - Includes media queries for responsive design.
+ */
+
+
+/* Main CSS file for the project */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1b1b1b; 
+  color: #e0e0e0;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Main Content Styling */
+h1, h2 {
+  color: #d4a373; 
+}
+
+/* Card Styling */
+.card {
+  padding: 2em;
+  background-color: #242424; 
+  border: 1px solid #3a3a3a;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 200ms ease, border-color 200ms ease, box-shadow 200ms ease;
+}
+
+.card:hover {
+  transform: scale(1.02); 
+  border-color: #f4a261; 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  transition: transform 200ms ease;
+}
+
+.card img:hover {
+  transform: scale(1.05); 
+}
+
+
+p {
+  line-height: 1.6;
+  color: #d1d1d1; 
+}
+
+/* Button Styling */
+button {
+  background-color: #80461b; 
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 200ms ease, transform 100ms ease;
+}
+
+button:hover {
+  background-color: #a65e2e; 
+  transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  body {
+    padding: 0 1rem;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .card {
+    padding: 1.5em;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
+
+
+/* Form Styling */
+form input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #80461b;
+  color: white;
+}
+
+/* Image Styling */
+img {
+  width: 300px; 
+  height: 200px;
+  object-fit: cover; 
+  border-radius: 5px; 
+}
+
+/* Slideshow Styling */
+.slideshow-container img {
+  width: 100%;
+  max-width: 500px; 
+  height: 300px; 
+  object-fit: cover; 
+  border-radius: 10px; 
+}

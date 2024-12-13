@@ -1,0 +1,138 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Brazilian Black Tarantula",
+      "price": 50,
+      "image": "/images/G_pulchra1.jpeg",
+      "largeImage": "/images/G_pulchra2.jpeg",
+      "experienceLevel": "Beginner",
+      "availableQuantity": 12,
+      "quantity": 1,
+      "genus": "Grammostola pulchra",
+      "description": "Known for its velvety black coloration, the Brazilian Black Tarantula is a calm and captivating species perfect for beginners and enthusiasts alike."
+    },
+    {
+      "id": "2",
+      "name": "Chilean Rose Tarantula",
+      "price": 40,
+      "image": "/images/G_rosea1.jpeg",
+      "largeImage": "/images/G_rosea2.jpeg",
+      "experienceLevel": "Beginner",
+      "availableQuantity": 15,
+      "quantity": 1,
+      "genus": "Grammostola rosea",
+      "description": "A popular choice among keepers, the Chilean Rose Tarantula is admired for its shimmering pink hues and gentle temperament."
+    },
+    {
+      "id": "3",
+      "name": "Mexican Orange Tarantula",
+      "price": 60,
+      "image": "/images/B_hamorii3.jpeg",
+      "largeImage": "/images/B_hamorii2.jpeg",
+      "experienceLevel": "Beginner",
+      "availableQuantity": 8,
+      "quantity": 1,
+      "genus": "Brachypelma hamorii",
+      "description": "With striking orange leg markings, the Mexican Orange Tarantula combines beauty with docility, making it a keeper's delight."
+    },
+    {
+      "id": "4",
+      "name": "Curly Hair Tarantula",
+      "price": 70,
+      "image": "/images/T_albo2.jpeg",
+      "largeImage": "/images/T_albo1.jpeg",
+      "experienceLevel": "Beginner",
+      "availableQuantity": 5,
+      "quantity": 1,
+      "genus": "Tliltocatl albopilosus",
+      "description": "The Curly Hair Tarantula is recognized for its fuzzy appearance and easy care, making it ideal for first-time tarantula owners."
+    },
+    {
+      "id": "5",
+      "name": "Mexican Fireleg Tarantula",
+      "price": 80,
+      "image": "/images/B_boehmei1.jpeg",
+      "largeImage": "/images/B_boehmei2.jpeg",
+      "experienceLevel": "Experienced",
+      "availableQuantity": 3,
+      "quantity": 1,
+      "genus": "Brachypelma boehmei",
+      "description": "A fiery beauty, the Mexican Fireleg Tarantula boasts vivid orange-red legs and a bold personality that experienced keepers appreciate."
+    },
+    {
+      "id": "6",
+      "name": "Brazilian Whiteknee Tarantula",
+      "price": 90,
+      "image": "/images/A_gen1.jpeg",
+      "largeImage": "/images/A_gen2.jpeg",
+      "experienceLevel": "Experienced",
+      "availableQuantity": 2,
+      "quantity": 1,
+      "genus": "Acanthoscurria geniculata",
+      "description": "The Brazilian Whiteknee Tarantula is a striking species with its contrasting black and white coloration, making it a standout in any collection."
+    },
+    {
+      "id": "7",
+      "name": "Mexican Golden Rump/Black Legged Tarantula",
+      "price": 100,
+      "image": "/images/B_albiceps3.jpeg",
+      "largeImage": "/images/B_albiceps2.jpeg",
+      "experienceLevel": "Beginner",
+      "availableQuantity": 10,
+      "quantity": 1,
+      "genus": "Brachypelma albiceps",
+      "description": "The Mexican Golden Rump Tarantula stands out with its shimmering golden carapace and tranquil nature."
+    },
+    {
+      "id": "8",
+      "name": "Brazilian Red/White Knee Tarantula",
+      "price": 110,
+      "image": "/images/N_chromatus1.jpeg",
+      "largeImage": "/images/N_chromatus2.jpeg",
+      "experienceLevel": "Experienced",
+      "availableQuantity": 7,
+      "quantity": 1,
+      "genus": "Nhandu chromatus",
+      "description": "The Brazilian Red/White Knee Tarantula is a striking species with its vibrant red and white coloration, making it a standout in any collection."
+    },
+    {
+      "id": "9",
+      "name": "Western Desert Brown Legged Tarantula",
+      "price": 120,
+      "image": "/images/A_chalcodes1.jpeg",
+      "largeImage": "/images/A_chalcodes3.jpeg",
+      "experienceLevel": "Beginner",
+      "availableQuantity": 9,
+      "quantity": 1,
+      "genus": "Aphonopelma chalcodes",
+      "description": "Adapted to arid climates, the Western Desert Tarantula is resilient, with a calm and approachable nature."
+    },
+    {
+      "id": "10",
+      "name": "Mexican Flameknee Tarantula",
+      "price": 130,
+      "image": "/images/B_auratum1.jpeg",
+      "largeImage": "/images/B_auratum2.jpeg",
+      "experienceLevel": "Experienced",
+      "availableQuantity": 13,
+      "quantity": 1,
+      "genus": "Brachypelma auratum",
+      "description": "The Mexican Flame Tarantula dazzles with its bold orange and black coloration, making it a prized addition for collectors."
+    }
+  ],
+  "cart": [
+    {
+      "id": "7",
+      "name": "Mexican Golden Rump/Black Legged Tarantula",
+      "price": 100,
+      "image": "/images/B_albiceps3.jpeg",
+      "largeImage": "/images/B_albiceps2.jpeg",
+      "experienceLevel": "Beginner",
+      "availableQuantity": 10,
+      "quantity": 1,
+      "genus": "Brachypelma albiceps",
+      "description": "The Mexican Golden Rump Tarantula stands out with its shimmering golden carapace and tranquil nature."
+    }
+  ]
+}
